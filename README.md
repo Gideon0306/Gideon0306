@@ -1,48 +1,20 @@
-# Gideon0306
+# Hi, I'm Gideon
 
-**Security Operations · Detection Engineering · Identity Security**
+I work in security operations day to day — SIEM/XDR incident response, DLP, identity and access management — and I'm using this space to build out the offensive side too. Most of what's here is red and blue team work paired together: I build an attack in a lab, then write the detection that catches it.
 
-Senior Consultant at an MSSP, working SOC operations, SIEM/XDR incident
-response, DLP administration, and IAM across multiple client engagements.
-Currently completing an M.Tech in Cybersecurity and preparing for the
-Microsoft SC-200 (Security Operations Analyst) certification.
+Right now I'm studying an M.Tech in Cybersecurity. Long term I want to move into detection engineering and threat hunting, so this repo is where that gets built in public.
 
-This profile tracks the engineering side of that work — detections, hunts,
-and tooling built outside the ticket queue.
+**Full write-ups and project log:** https://gideon0306.github.io/
 
-**[→ Full case log / portfolio site](https://gideon0306.github.io/)**
+## What I'm working with
 
----
+Day job: Microsoft Sentinel, Defender XDR, KQL, Forcepoint DLP, Okta/SAML.
 
-### Currently
+Learning and building with: Python, Sigma rules, GOAD, Entra ID, basic C2 frameworks for lab use.
 
-- 🔭 Preparing for the **SC-200** exam (Defender XDR, Sentinel, Entra ID Protection, Purview)
-- 🎓 Pursuing an **M.Tech in Cybersecurity** at IIIT Sri City
-- 🛡️ Holding the **Okta Certified Professional** certification
-- 🔍 Job-searching for Detection Engineer / Threat Hunter / SOC L3 / Senior IR roles
+## How I'm approaching this
 
-### What I work with day to day
-
-| Area | Tools |
-|---|---|
-| SIEM / XDR | Microsoft Sentinel, Defender XDR, KQL |
-| DLP | Forcepoint (policy authoring, RCA, regulatory mapping) |
-| IAM | Okta (SAML federation, JIT provisioning, OEL) |
-| Engineering | Python, Sigma, Solidity / Hardhat |
-
-### In progress
-
-| Project | Status |
-|---|---|
-| Detection Engineering Repository (Sigma + KQL + ATT&CK mapping) | 🟡 In progress |
-| Threat Hunting Framework | 🟡 In progress |
-| Microsoft Sentinel Cloud Detection Lab | 🟡 In progress |
-| Active Directory Attack Lab (GOAD-based) | 🟡 In progress |
-| Phishing OSINT Triage Script | 🟡 In progress |
-| [CertChain](https://github.com/Gideon0306/certchain) — blockchain certificate verification (Solidity, Hardhat, ethers.js) | 🟡 In progress |
-
-Full descriptions and repo links live on the [case log](https://gideon0306.github.io/).
+Every offensive build stays inside an isolated lab — nothing here is meant to run against real infrastructure. The point isn't the exploit, it's understanding it well enough to write a detection that actually catches it. If you're also coming up through SOC work and want to go deeper into both sides, feel free to use this as a rough template for your own log.
 
 ---
-
-<sub>Last updated: 2026-06-29</sub>
+*Last updated: 2026-06-29*
